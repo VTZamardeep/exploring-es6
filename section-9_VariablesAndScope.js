@@ -34,5 +34,9 @@ console.log(arr);
  */
 console.log('const in loops')
 for(const [index,value] of arr.entries()){
-    console.log(index+"....."+value)
-}
+    console.log(index+"....."+value);
+    }
+
+/**
+ * 
+ *  */    

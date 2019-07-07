@@ -94,7 +94,9 @@ console.log(raj.name);
 console.log('deriving classes');
 class son extends amardeep{
     constructor(name,height,placed){
-        super(name,height);//super keyword is used to invoke the constructor of parent class
+        //super keyword is used to invoke the constructor of parent class 
+        //here constructor of amardeep class will be invoked
+        super(name,height);
         this.placed=placed;
         console.log(this);
     }
