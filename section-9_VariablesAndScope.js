@@ -31,6 +31,7 @@ console.log(arr);
  * const in loops 
  * this question may arise how we can use const in loop?
  * scope of const is block so we declare it fresh every time in below example.
+ * in below example value of const index and value is changed everytime.
  */
 console.log('const in loops')
 for(const [index,value] of arr.entries()){
