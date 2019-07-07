@@ -1,5 +1,5 @@
 
-/**line 6 will give error because we are assigning const a value 
+/**line 8 will give error because we are assigning const a value 
  * also const  are immutables.
 */
 let a=5;
@@ -39,5 +39,29 @@ for(const [index,value] of arr.entries()){
     }
 
 /**
- * 
+ * var vs let
  *  */    
+function test(arg){
+    //let arg will generate error you cannot declare arg again via let but using var you can declare arg.
+    //let arg; 
+    console.log(arg)
+}
+function test1(arg){
+    var arg;
+}
+test(11);
+test1(111);
+
+/**
+ * default parameters
+ */
+console.log('default parameters')
+function default_param(x=2,y=2){
+    console.log(x,y)
+}
+default_param();
+
+function default_param1(x=2,y=x){
+    console.log(x,y)
+}
+default_param1();
