@@ -60,8 +60,7 @@ function default_param(x=2,y=2){
     console.log(x,y)
 }
 default_param();
-
-function default_param1(x=2,y=x){
-    console.log(x,y)
-}
-default_param1();
+/*
+JavaScript’s global object (window in web browsers, global in Node.js)
+ is more a bug than a feature, especially with regard to performance.
+*/
