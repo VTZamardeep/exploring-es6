@@ -35,6 +35,8 @@ three({name:'raju',height:'5.7'})
 
 /**
  * refering to another parameters 
+ * error will be generated if we use function four(x=y,y=2){}
+ * so,first initialize the variable then use it.
  */
 console.log('refering to another parameters ');
 function four(x=2,y=x){
@@ -42,3 +44,7 @@ function four(x=2,y=x){
 }
 four();
 four(5);
+
+/**
+ * 
+ */
